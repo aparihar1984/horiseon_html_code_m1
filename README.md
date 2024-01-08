@@ -8,7 +8,7 @@ I created my horiseon_html_code_m1 repository on GitHub which features all refac
 
 I cloned my repository and the starter code from the "https://github.com/coding-boot-camp/urban-octo-telegram" repository that was given in the assignment.  The starter code can be found on the feature/starter-code branch of my horiseon_html_code-m1 repository.
 
-I added semantic HTML elements such as <section>, <article>, <nav>, and <link> to the index.html document.
+I added semantic HTML elements such as section, article, nav, and link to the index.html document.
 
 I kept the structure of the index.html document the same but refactored the code in the style.css document in order to follow a logical structure.
 
