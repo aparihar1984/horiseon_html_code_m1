@@ -33,7 +33,7 @@ body {
 }
 
 /* Header function properties */
-.header div {
+.header nav {
     /* Padding and margins in conjection with box-sizing function */
     padding-top: 15px;
     margin-right: 20px;
@@ -43,13 +43,13 @@ body {
     font-size: 20px;
 }
 
-/* list-style-type defines bullet contents which are not needed on this page  */
-/* .header div ul {
+/* list-style-type defines bullet contents */
+.header nav ul {
     list-style-type:square;
-} */
+}
 
 /* Header links display and margin properties */
-.header div ul li {
+.header nav ul link {
     display: inline-block;
     margin-left: 25px;
 }
@@ -173,7 +173,7 @@ p {
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
-    /* extra code */
+    /* Added code */
     margin-bottom: 50px;
     text-align: center;
 }
@@ -182,7 +182,7 @@ p {
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
-    /* extra code */
+    /* Added code */
     margin-bottom: 50px;
     text-align: center;
 }
@@ -191,7 +191,7 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-    /* extra code */
+    /* Added code */
     margin-bottom: 50px;
     text-align: center;
 }
