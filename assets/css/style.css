@@ -1,55 +1,71 @@
-* {
+/* Box sizing property defining the how the width and height of the webpage elements */
+*{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Webpage background color set to #d9dcd6, but is it necessary or is there a default background color? */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header Proprties */
 .header {
     padding: 20px;
+    /* Text font */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Header background-color */
     background-color: #2a607c;
-    color: #ffffff;
 }
 
+/* <h1> main header display properties */
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    /* Header <h1> "HORI" & "N" color */
+    color: #ffffff;
 }
 
+/* class "SEO" font color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Header function properties */
 .header div {
+    /* Padding and margins in conjection with box-sizing function */
     padding-top: 15px;
     margin-right: 20px;
+    /* Header links location, font style and size */
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
+/* list-style-type defines bullet contents which are not needed on this page  */
+/* .header div ul {
+    list-style-type:square;
+} */
 
+/* Header links display and margin properties */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Header links text color */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* <p> "paragraph" function text size */
 p {
     font-size: 16px;
 }
 
+/* Properties of digital-marketing-meeting.jpg pic */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +75,89 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Content Function display and margin properties */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Location of Search Engine Optimization, and Social Media Marketing function text since those are right of their respective pics*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Location of Online Reputation Management function text since that is left of it's respective pic */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Search Engine Optimization "blue" panel and text properties */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Search Engine Optimization header margin and font size */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* search-engine-optimization picture location on webpage*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Online Reputation Management "blue" panel and text properties */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Online Reputation Management header margin and font size */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* online-reputation-management picture location on webpage*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Social Media Marketing "blue" panel and text properties */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Social Media Marketing header margin and font size */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* social-media-marketing picture location on webpage*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Benefits function properties */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,108 +169,55 @@ p {
     background-color: #2589bd;
 }
 
+/* Margins, alignment and color of Lead Generation text */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
+    /* extra code */
+    margin-bottom: 50px;
+    text-align: center;
 }
 
+/* Margins, alignment and color of Brand Awareness text */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
+    /* extra code */
+    margin-bottom: 50px;
+    text-align: center;
 }
 
+/* Margins, alignment and color of Cost Management text */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
+    /* extra code */
+    margin-bottom: 50px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/* Sizing and display properties of benefit-lead.jpg */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Sizing and display properties of benefit-brand.jpg */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Sizing and display properties of benefit-cost.jpg */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer properties */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +225,7 @@ p {
     text-align: center;
 }
 
+/* Footer heading text size */
 .footer h2 {
     font-size: 20px;
 }
